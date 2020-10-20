@@ -1,0 +1,31 @@
+.footer {
+  background: linear-gradient(to top, rgb(255, 217, 182), rgb(245, 244, 244));
+  padding: 10px;
+}
+
+.footer > div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer > div > span {
+  display: flex;
+  align-items: center;
+}
+
+.footer > div > span > .MuiSvgIcon-root {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 689px) {
+  .footer > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer > div > span {
+    margin-top: 10px;
+  }
+}

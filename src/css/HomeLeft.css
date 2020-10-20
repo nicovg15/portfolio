@@ -1,0 +1,100 @@
+.homeLeft-h1 > h1 {
+  font-size: 40px;
+  color: rgb(71, 71, 71);
+}
+
+.homeLeft-icon {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.homeLeft-icon > a > .MuiSvgIcon-root {
+  margin-right: 60px;
+  font-size: 27px;
+  cursor: pointer;
+  transition: transform 450ms;
+}
+
+.homeLeft-linkedin {
+  color: #0072b1;
+}
+
+.homeLeft-github {
+  color: rgb(129, 41, 129);
+}
+
+.homeLeft-icon > a > .MuiSvgIcon-root:hover {
+  transform: scale(1.15);
+}
+
+.homeLeft-cv {
+  color: rgb(190, 122, 20);
+}
+
+.homeLeft-portfolio {
+  color: rgb(66, 187, 243);
+}
+
+@media only screen and (max-width: 1269px) {
+  .homeLeft-box {
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 1176px) {
+  .homeLeft-h1 > h1 {
+    font-size: 31px;
+  }
+}
+
+@media only screen and (max-width: 1093px) {
+  .homeLeft-h1 > h1 {
+    font-size: 27px;
+  }
+}
+
+@media only screen and (max-width: 889px) {
+  .homeLeft-h1 > h1 {
+    font-size: 22px;
+  }
+
+  .homeLeft-icon > a > .MuiSvgIcon-root {
+    margin-right: 40px;
+  }
+}
+
+@media only screen and (max-width: 779px) {
+  .homeLeft-h1 > h1 {
+    font-size: 30px;
+  }
+  .homeLeft-box {
+    margin-top: 110px;
+    margin-left: 0;
+  }
+
+  .homeLeft-icon {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .homeLeft-h1 > h1 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 361px) {
+  .homeLeft-h1 > h1 {
+    font-size: 20px;
+  }
+  .homeLeft-box {
+    margin-top: 80px;
+  }
+  .homeLeft-icon > a > .MuiSvgIcon-root {
+    margin-right: 20px;
+  }
+}

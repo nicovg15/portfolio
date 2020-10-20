@@ -1,0 +1,28 @@
+@media only screen and (max-width: 970px) {
+  .homeRight > img {
+    width: 500px;
+    height: 500px;
+    padding-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 779px) {
+  .homeRight {
+    width: 100%;
+    text-align: center;
+  }
+
+  .homeRight > img {
+    width: 350px;
+    height: 350px;
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .homeRight > img {
+    width: 300px;
+    height: 300px;
+    padding-top: 30px;
+  }
+}

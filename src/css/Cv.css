@@ -1,0 +1,56 @@
+.cv {
+  background: linear-gradient(to right, rgb(233, 233, 233), white);
+  height: 100vh;
+  padding-top: 10px;
+}
+.cv > div {
+  background-color: white;
+  padding: 10px 20px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.cv-title {
+  display: flex;
+  align-items: center;
+  color: #6589bf;
+}
+
+.cv-projects {
+  margin-bottom: 11px;
+}
+
+.cv-projects-main > span {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.cv-projects-main > ul > li {
+  font-size: 14px;
+}
+
+.cv-skills {
+  margin-bottom: 11px;
+}
+
+.cv-skills > ul > li {
+  font-size: 14px;
+}
+
+.cv-education {
+  margin-bottom: 11px;
+}
+
+.cv-education-main > p {
+  font-size: 14px;
+}
+
+.cv-experience {
+  margin-bottom: 11px;
+}
+
+.cv-experience-main > ul > li {
+  font-size: 14px;
+}

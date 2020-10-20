@@ -1,0 +1,23 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.home-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.home-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 779px) {
+  .home-top {
+    flex-direction: column;
+  }
+}
