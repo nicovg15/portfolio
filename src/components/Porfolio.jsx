@@ -7,9 +7,9 @@ function Porfolio() {
         <div className="portfolio">
             <div className="portfolio-top">
                 <div className="portfolio-box">
-                    <a href="https://izgong.github.io/RooFarm/#/" target="_blank"><h2>ROOFARM | HACHATHON <ArrowForwardIcon/></h2></a>
-                    <img className="portfolio-img" src={require('../pics/roofarm2.png')} alt="roofarm"/>
-                    <span>Web App project where you can receive information about roofs of <br/> different cities around the world, to install small farms on them.</span>
+                    <a href="https://socialapp-t.web.app/" target="_blank"><h2>SOCIAL MEDIA APP <ArrowForwardIcon/></h2></a>
+                    <img className="portfolio-img" src={require('../pics/socialmedia.png')} alt="socialmedia"/>
+                    <span>MERN Stack project based on Twitter. Includes authentication, <br/> CRUD functions, handling errors, responsive.</span>
                 </div>
                 <div className="portfolio-box">
                     <a href="https://acsonsound-d4340.web.app/" target="_blank"><h2>ACSON SOUND E-COMMERCE <ArrowForwardIcon/></h2></a>
@@ -29,10 +29,17 @@ function Porfolio() {
                     <span>Mobile App for communication between managers and <br/> employees in manufacturing companies</span>
                 </div>
             </div>
-            <div className="portfolio-box portfolio-bottom">
-                <a href="https://worldweather-964bb.web.app/" target="_blank"><h2>WHEATHER APP <ArrowForwardIcon/></h2></a>
-                <img className="portfolio-img" src={require('../pics/weather.png')} alt="weather"/>
-                <span>Web App where you can check the weather of any country/city </span>
+            <div className="portfolio-bottom">
+                <div className="portfolio-box">
+                    <a href="https://izgong.github.io/RooFarm/#/" target="_blank"><h2>ROOFARM | HACHATHON <ArrowForwardIcon/></h2></a>
+                    <img className="portfolio-img" src={require('../pics/roofarm2.png')} alt="roofarm"/>
+                    <span>Web App project where you can receive information about roofs of <br/> different cities around the world, to install small farms on them.</span>
+                </div>
+                <div className="portfolio-box">
+                    <a href="https://worldweather-964bb.web.app/" target="_blank"><h2>WHEATHER APP <ArrowForwardIcon/></h2></a>
+                    <img className="portfolio-img" src={require('../pics/weather.png')} alt="weather"/>
+                    <span>Web App where you can check the weather of any country/city </span>
+                </div>
             </div>
         </div>
     )

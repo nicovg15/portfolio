@@ -7,14 +7,14 @@ import Footer from './Footer'
 function Home() {
     return (
         <div className="home">
-            <div className="home-top">
+                <div className="home-top">
                 <HomeLeft />
                 <HomeRight/>
             </div>
             <div className="home-footer">
                 <Footer />
             </div>
-        </div>
+            </div>
     )
 }
 

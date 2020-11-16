@@ -11,6 +11,15 @@ function Cv() {
                         <h3>Projects</h3>
                     </div>
                     <div className="cv-projects-main">
+                        <h4>SOCIAL MEDIA APP | 2020</h4>
+                        <span>MERN Stack project based on Twitter. Includes authentication, CRUD functions, handling errors, responsive.</span>
+                        <ul>
+                            <li>UX/UI Design</li>
+                            <li>Front End (React.js, Context, Twitter API, Moment.js, Material UI, Responsive, deploy on Firebase)</li>
+                            <li>Back End (Express.js, Mongoose, JWT, Bcryptjs, Authentication, deploy on Heroku)</li>
+                        </ul>
+                    </div>
+                    <div className="cv-projects-main">
                         <h4>ROOFARM | HACKATHON | 2020</h4>
                         <span>Web app project where you can receive information about roofs of different cities around the world, to install small farms on them.</span>
                         <ul>
@@ -52,15 +61,6 @@ function Cv() {
                     <div className="cv-title">
                         <RemoveIcon />
                         <h3>Experience</h3>
-                    </div>
-                    <div className="cv-experience-main">
-                        <h4>SOCIAL MEDIA & CONTENT CREATOR INTERNSHIP | 365 SCORES - 2019</h4>
-                        <ul>
-                            <li>Manage social media</li>
-                            <li>Creation & edition of Image & content</li>
-                            <li>Update app's news</li>
-                            <li>Trends research</li>
-                        </ul>
                     </div>
                     <div className="cv-experience-main">
                         <h4>MARKETING ASSISTANT IMANAGING | 2013 - 2018</h4>

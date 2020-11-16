@@ -14,7 +14,7 @@ function HomeLeft() {
                 <Fade left cascade>
                     <div className="homeLeft-h1">
                         <h1>Hi I'm Nico,</h1>
-                        <h1>I am Full Stack Developer</h1>
+                        <h1>I am a Full Stack Developer</h1>
                     </div>
                 </Fade>
                 <div className="homeLeft-icon">
